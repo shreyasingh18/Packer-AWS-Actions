@@ -1,0 +1,12 @@
+name: 'HashiCorp Packer Automation to AWS Provision'
+description: 'Use HashiCorp Packer to provision an EC2 instance on AWS Cloud using GitHub Actions'
+author: 'Shreya Singh'
+inputs:
+  src:
+    description: 'Put AWS access and secret access keys in example.json file'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'check-circle'
+  color: 'green'
