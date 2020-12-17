@@ -28,6 +28,6 @@
     {"type": "shell",
        "inline":["sudo apt install -y jq unzip"]},   
     {"type": "shell",
-     "script": "falcon-download.sh"}
+     "script": "/falcon-download.sh"}
   ]
 }
