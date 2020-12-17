@@ -1,5 +1,6 @@
 name: HashiCorp Packer
 on: [push]
+on: [pull]    
 
 jobs:
   build:
